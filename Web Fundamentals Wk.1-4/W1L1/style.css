@@ -1,0 +1,10 @@
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(61, 61, 61);
+}
+.sub-container{
+    width: auto;
+    height: auto;
+    background-color: rgb(0, 92, 92);
+}
