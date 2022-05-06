@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    align-content:flex-start;
+    align-items: flex-start;
+    width: 950px;
+    height: 600px;
+    background-color: silver;
+    margin: 0px auto;
+}
+.top-nav {
+    height: 150px;
+    width: 100vw;
+    margin: 15px;
+
+    background-color: green;
+}
+.side-nav {
+    height: 300px;
+    width: 200px;
+    margin-left: 15px;
+    background-color: blue;
+}
+.main {
+    margin-left: 10px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    height: 400px;
+    width: 710px;
+    background-color: red;
+}
+.sub-content {
+    margin: 10px;
+    height: 200px;
+    width: 180px;
+    background-color: yellow;
+}
+#advertisement {
+    align-self: flex-start;
+    height: 120px;
+    width: 660px;
+    margin: 15px;
+    background-color: purple;
+}
+

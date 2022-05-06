@@ -1,0 +1,27 @@
+h1{
+    background-color: black;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-style: sans-serif;
+    padding-left: 1rem
+}
+h2{
+    background-color: rebeccapurple;
+    text-emphasis: center;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+h3{
+    background-color: skyblue;
+    text-align: right;
+    color: black;
+    font-weight: normal;
+    text-decoration: underline;
+    text-decoration-style: normal;
+    padding-right: 1rem
+}
+span{
+    color: cyan;
+}

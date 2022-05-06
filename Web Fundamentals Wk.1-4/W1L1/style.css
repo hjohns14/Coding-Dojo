@@ -8,3 +8,18 @@
     height: auto;
     background-color: rgb(0, 92, 92);
 }
+h1{
+    background-color: navy;
+    color: whitesmoke;
+}
+body{
+    background-color: blanchedalmond;
+}
+li, ol, ul{
+    background-color: rebeccapurple;
+    color: rgb(210, 255, 87);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-block: 10px;
+}
+
