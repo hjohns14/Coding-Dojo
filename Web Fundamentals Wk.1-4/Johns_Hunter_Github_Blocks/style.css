@@ -31,6 +31,6 @@ img.octocat{
 
 .container > h1{
 
-    text-align: center;
+    align-self: center;
     color: rgb(84, 92, 100);
 }
