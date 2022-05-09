@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+h2, p, a{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+img{
+    height: 20px;
+}
+.profile{
+    height: 75px;
+    position: relative;
+    top: 25px;
+    margin-left: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 50px;
+    height: 100%;
+    width: 1000px;
+    border: 1px dashed red;
+}
+
+.card{
+    flex: 0.6;
+    margin-bottom: 2em;
+    font-size: 1.1em;
+}
+.header{
+    width: 100%;
+    background-color: rgb(46, 149, 209);
+    height: 75px;
+}
+.header-dark{
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+    height: 4em;
+    color: white;
+    display: inline-flex;
+    
+}
+
+.header-dark > h3{
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.notification{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 50%;
+    width: fit-content;
+    height: auto;
+    align-self: center;
+    padding: 5px;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+
+.body{
+    background-color: whitesmoke;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    border-left: 1px solid rgb(173, 173, 173);
+    border-right: 1px solid rgb(173, 173, 173);
+    border-bottom: 1px solid rgb(173, 173, 173);
+
+}
+
+.body h2, h3, p, .grey{
+    padding-left: 15px;
+    padding-bottom: 0.7rem;
+}
+
+.body > p{
+    font-weight: bold;
+}
+
+
+.wrapper{
+    flex: 0.7;
+    height: fit-content;
+    margin: 2vw;
+    font-size: 1.1em;
+    border: 1px dotted blue;
+
+}
+
+.sidebar{
+    display: flex;
+    height: 80vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 0.4;
+    margin: 2vw;
+
+}
+.requests{
+    margin-bottom: 25px;
+    flex: 1;
+    display: block;
+    height: fit-content;
+
+}
+.connections{
+    margin: 0px 0px;
+    flex: 2;  
+    display: block;
+
+}
+.grey{
+    color: grey;
+    font-weight:100;
+}
+.nameplate{
+    margin-bottom: 0.5rem;
+    padding: 5px 15px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.nameplate > img{
+    height: 40px;
+    margin-right: 2rem;
+}
+.name{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.5rem;
+}
+
