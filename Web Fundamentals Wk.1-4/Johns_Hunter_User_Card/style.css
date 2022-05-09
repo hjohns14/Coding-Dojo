@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+img{
+    height: 20px;
+}
+.profile{
+    height: 75px;
+    position: relative;
+    top: 25px;
+    margin-left: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.card{
+    flex: 0.75;
+    font-size: 1.3em;
+}
+.card > .stripe{
+    width: 100%;
+    background-color: rgb(46, 149, 209);
+    height: 75px;
+}
+
+.card > .body{
+    background-color: rgb(238, 235, 231);
+    padding-top: 35px;
+    padding-bottom: 25px;
+    border-left: 1px solid rgb(173, 173, 173);
+    border-right: 1px solid rgb(173, 173, 173);
+    border-bottom: 1px solid rgb(173, 173, 173);
+
+}
+
+h2, p, a{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
