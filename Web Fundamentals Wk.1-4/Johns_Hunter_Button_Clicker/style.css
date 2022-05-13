@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:monospace
+}
+.container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper{
+    background-color: white;
+    margin: 50px 200px;
+    margin-top: 20px;
+    height: fit-content;
+    width: 80vw;
+    display: flex;
+}
+
+.col-1{
+    margin: 30px 0px;
+    margin-left: 15px;
+    background-color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-3{
+    margin: 30px 0px;
+    margin-right: 15px;
+    background-color: white;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    background-color: whitesmoke;
+    width: 80vw;
+    height: 10vh;
+    display: flex;
+    padding: 0px 25px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.login-btn{
+    background-color: blue;
+    border: 1px solid black;
+    height: 20px;
+    width: 120px;
+    border-radius: 25px;
+    color: white;
+    box-shadow: 1px 1px black;
+}
+
+.like-btn{
+    background-color:blanchedalmond;
+    border: 1px solid black;
+    margin-top: 2rem;
+    padding: 0.2em 0.8em;
+    height: fit-content;
+    width: fit-content;
+    color: black;
+    box-shadow: 1px 1px black;
+}
+
+/* Add definition button */
+.add-def{
+    background-color: teal;
+    border: 1px solid black;
+    margin-top: 1em;
+    padding: 0.2em 0.8em;
+    height: fit-content;
+    width: fit-content;
+    color: black;
+    box-shadow: 1px 1px black;
+    align-self: center;
+}
+
+
+/* create card left side and definition */
+.card{
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 1em;
+    height: fit-content;
+    flex: 1;
+    display: flex;
+}
+
+.col-card{
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 1em;
+    padding: 1em 0.8em;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-around;
+}
+.left{
+    background-color: inherit;
+    padding: 1rem 0rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.definition{
+    background-color: inherit;
+    padding: 2em;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* adjust interior elements of card */
+.definition > p{
+    font-size: 14pt;
+    overflow-wrap: break-word;
+}
+
+.col-3  h2{
+    text-align: center;
+
+}
+
+.left > p{
+    font-style: italic;
+    margin: 4px 0px;
+    font-size: 8pt;
+}
+
+.left p:first-of-type{
+    font-size: 12pt;
+    font-weight: 500;
+}
