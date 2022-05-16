@@ -22,3 +22,12 @@ function likeAlert(element){
     element.innerText = likes + " likes"
     alert(`${name} was liked!`)
 }
+
+function over(el){
+    el.style.backgroundColor = "rgb(219, 164, 81)"
+
+}
+
+function out(el){
+    el.style.backgroundColor = "blanchedalmond"
+}
