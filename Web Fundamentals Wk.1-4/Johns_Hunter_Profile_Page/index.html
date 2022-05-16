@@ -24,7 +24,7 @@
                     <img src="./assets/user-circle.png" alt="User Circle" class="profile">
                 </div>
                 <div class="card-body">
-                    <h2>Jane Doe</h2>
+                    <h2 id="user-name">Jane Doe</h2>
                     <p>
                         <img src="./assets/map-marker.png" alt="User Circle">
                         Seattle
@@ -32,7 +32,7 @@
                     <p>
                         Developer | Engineer | Problem Solver |<br> Master of shadows and the Internet
                     </p>
-                    <a href="#">
+                    <a href="#" onclick="changeName(this)">
                         <img src="./assets/gear.png" alt="Gear">
                         edit profile
                     </a>
@@ -55,35 +55,35 @@
         <div class="sidebar">
             <div class="requests">
                 <div class="header-dark">
-                    <p class="notification">2</p>
+                    <p class="notification" id="connection-requests">2</p>
                     <h3>Connection Requests</h3>
                 </div>
                 <div class="card-body">
                     <ul>
-                        <li>
+                        <li id="Todd E">
                             <div class="list-centered-item">
                                 <img src="./assets/user-circle.png" alt="User Pic">
                                 <h3>Todd E</h3>
                             </div>
                             <div>
-                                <button>
+                                <button onclick="accept('Todd E')">
                                     <img src="./assets/accept-circle.png" alt="Accept">
                                 </button>
-                                <button>
+                                <button onclick="deny('Todd E')">
                                     <img src="./assets/close-circle.png" alt="Deny">
                                 </button>
                             </div>
                         </li>
-                        <li>
+                        <li id="Phil K">
                             <div class="list-centered-item">
                                 <img src="./assets/user-circle.png" alt="User Pic">
                                 <h3>Phil K</h3>
                             </div>
                             <div>
-                                <button>
+                                <button onclick="accept('Phil K')">
                                     <img src="./assets/accept-circle.png" alt="Accept">
                                 </button>
-                                <button>
+                                <button  onclick="deny('Phil K')">
                                     <img src="./assets/close-circle.png" alt="Deny">
                                 </button>
                             </div>
@@ -94,7 +94,7 @@
 
             <div class="connections">
                 <div class="header-dark">
-                    <p class="notification">500+</p>
+                    <p class="notification" id="connections">445</p>
                     <h3>Your Connections</h3>
                 </div>
                 <div class="card-body">
@@ -122,5 +122,7 @@
         </div>
 
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
