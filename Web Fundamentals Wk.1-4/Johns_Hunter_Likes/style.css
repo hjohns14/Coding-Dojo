@@ -117,3 +117,13 @@
     color: black;
     box-shadow: 2px 2px 2px black;
 }
+
+.down{
+    background-color: rgb(199, 164, 112);
+    position: relative;
+    box-shadow: none;
+    bottom: -2px;
+    left: 2px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
