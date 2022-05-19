@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <div class="col-1 left">
+                <h2 class="nav-title">Hello</h2>
+            </div>
+            <div class="col-1 right">
+                <ul class="nav-links">
+                    <li><a href="">item</a></li>
+                    <li><a href="">item</a></li>
+                    <li><a href="">item</a></li>
+                </ul>
+                <button class="btn" onclick="remove(this)">Login</button>
+            </div>
+        </nav>
+
+        <div class="row">
+            <div class="col-1">
+                <div class="card">
+                    <div class="header">
+                        <h3>Container</h3>
+                    </div>
+                    <div class="card-body right">
+                        <button class="btn dark large" onclick="customAlert(this)">Alert!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="card">
+                    <div class="header">
+                        <h3>Container</h3>
+                    </div>
+                    <div class="card-body">
+                        <button id="heart" onclick="addLike()"><i class="fa fa-heart-o"></i></button>
+                        <p id="likes">1</p>
+                        <button class="btn dark large">Join!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
