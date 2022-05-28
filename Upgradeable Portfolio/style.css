@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bg-custom{
+    background-color: #133337;
+}
+
+.wrapper{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    min-width: 100%;
+}
+
+.black{
+    background-color: #101010;
+}
+.light{
+    background-color: #eeeeee;
+}
+.blue{
+    background-color: #003366;
+}
+.grey{
+    background-color: #cccccc;
+}
+.green{
+    background-color: #133337;
+}
+
+.waves-opacity-white {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.waves-opacity-white svg {
+    position: relative;
+    display: block;
+    width: calc(200% + 1.3px);
+    height: 150px;
+}
+
+.waves-opacity-white .shape-fill {
+    fill: #FFFFFF;
+}
+
+.spacer{
+    aspect-ratio: 16/9;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.grad-1{
+    background-image: url("./assets/main-gradient.svg");
+}
+
+.title-card{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    min-width: 50%;
+    max-width: 75%;
+}
+.card-body{
+    padding: 0px 2em;
+    overflow-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.carousel{
+    aspect-ratio: 16/91;
+    max-width: 75%;
+}
+
+.carousel-inner > .carousel-item > img {
+    aspect-ratio: 16/9;
+}

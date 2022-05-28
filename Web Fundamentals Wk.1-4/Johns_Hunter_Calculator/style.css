@@ -1,0 +1,37 @@
+#calculator{
+    background-color: rgb(24, 23, 23);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    width: fit-content;
+}
+#display{
+    margin: 15px;
+    align-self: flex-end;
+    font-size: 24pt;
+    color: #fff;
+}
+
+button{
+    margin: 2px;
+    background-color: rgb(102, 102, 102);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16pt;
+}
+
+.light{
+    background-color: rgb(150, 150, 150);
+
+}
+
+#equals{
+    width: 230px;
+    border-radius: 30px;
+
+}
